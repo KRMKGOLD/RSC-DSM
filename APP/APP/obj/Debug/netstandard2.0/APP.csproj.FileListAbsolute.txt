@@ -1,0 +1,14 @@
+C:\Users\DSM2018\source\repos\APP\APP\APP\bin\Debug\netstandard2.0\APP.deps.json
+C:\Users\DSM2018\source\repos\APP\APP\APP\bin\Debug\netstandard2.0\APP.dll
+C:\Users\DSM2018\source\repos\APP\APP\APP\bin\Debug\netstandard2.0\APP.pdb
+C:\Users\DSM2018\source\repos\APP\APP\APP\obj\Debug\netstandard2.0\APP.csprojAssemblyReference.cache
+C:\Users\DSM2018\source\repos\APP\APP\APP\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\DSM2018\source\repos\APP\APP\APP\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\DSM2018\source\repos\APP\APP\APP\obj\Debug\netstandard2.0\APP.csproj.CoreCompileInputs.cache
+C:\Users\DSM2018\source\repos\APP\APP\APP\obj\Debug\netstandard2.0\APP.AssemblyInfoInputs.cache
+C:\Users\DSM2018\source\repos\APP\APP\APP\obj\Debug\netstandard2.0\APP.AssemblyInfo.cs
+C:\Users\DSM2018\source\repos\APP\APP\APP\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\DSM2018\source\repos\APP\APP\APP\obj\Debug\netstandard2.0\APP.dll
+C:\Users\DSM2018\source\repos\APP\APP\APP\obj\Debug\netstandard2.0\APP.pdb
+C:\Users\DSM2018\source\repos\APP\APP\APP\obj\Debug\netstandard2.0\GamePage.xaml.g.cs
+C:\Users\DSM2018\source\repos\APP\APP\APP\obj\Debug\netstandard2.0\InfoPage.xaml.g.cs

@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="APP.GamePage"
+             Title="Rock Scissors Paper"
+             BackgroundColor="#FFFFFFFF">
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Grid
+            Grid.Row="0" Grid.RowSpan="2" Grid.Column="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <Image 
+                x:Name="cpuImg"
+                Grid.Row="0" 
+                Grid.RowSpan="3" 
+                Grid.Column="0"
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand"
+                Source="rock.png"/>
+            
+            <Label
+                x:Name="checkResultLabel"
+                Grid.Row="3"
+                Grid.Column="0"
+                HorizontalOptions="CenterAndExpand"
+                Text="ARE YOU READY?"
+                TextColor="#FF000000"
+                FontSize="Large"/>
+
+        </Grid>
+
+        <Grid Grid.Row="2" Grid.Column="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Button
+                x:Name="regameButton"
+                Text="ReGame"
+                Grid.Row="0"
+                Grid.Column="1"
+                Grid.ColumnSpan="2"
+                Clicked="regameButtonClicked"
+                IsVisible="False"/>
+
+            <Button
+                x:Name="gotomainButton"
+                Text="Go Main"
+                Grid.Row="0"
+                Grid.Column="3"
+                Grid.ColumnSpan="2" 
+                Clicked="gotomainButtonClicked"
+                IsVisible="False"/>
+
+            <Button
+                x:Name="scissorsButton"
+                Text="가위"
+                Clicked="scissorsButtonClicked"
+                Grid.Row="1"
+                Grid.Column="2"
+                Grid.ColumnSpan="2"
+                VerticalOptions="Center"
+                />
+
+            <Button
+                x:Name="rockButton"
+                Text="바위"
+                Clicked="rockButtonClicked"
+                Grid.Row="2"
+                Grid.Column="2"
+                Grid.ColumnSpan="2"
+                VerticalOptions="Center"
+                />
+
+            <Button
+                x:Name="paperButton"
+                Text="보"
+                Clicked="paperButtonClicked"
+                Grid.Row="3"
+                Grid.Column="2"
+                Grid.ColumnSpan="2"
+                VerticalOptions="Center"
+                />
+
+        </Grid>
+
+    </Grid>
+</ContentPage>
